@@ -7,7 +7,7 @@ Invoke [clj-kondo](https://github.com/clj-kondo/clj-kondo) from babashka scripts
 Add this dependency to `bb.edn` or `deps.edn`:
 
 ``` clojure
-{:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "bf0d878"}
+{:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "adfc7df"}
 ```
 
 You can invoke clj-kondo as a babashka one-liner like this:
