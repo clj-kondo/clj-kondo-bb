@@ -4,7 +4,7 @@ Invoke [clj-kondo](https://github.com/clj-kondo/clj-kondo) from babashka scripts
 
 ## Install
 
-Add this dependency to `bb.edn` or `deps.edn`:
+Add this dependency to `bb.edn` or `deps.edn` (for bb libraries):
 
 ``` clojure
 {:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "adfc7df"}
