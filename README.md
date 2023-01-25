@@ -7,7 +7,7 @@ Invoke [clj-kondo](https://github.com/clj-kondo/clj-kondo) from babashka scripts
 Add this dependency to `bb.edn` or `deps.edn`:
 
 ``` clojure
-{:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "..." }
+{:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "bf0d878"}
 ```
 
 You can add this library along with JVM clj-kondo without causing conflicts.
