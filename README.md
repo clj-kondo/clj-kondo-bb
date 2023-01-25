@@ -1,4 +1,4 @@
-# clj-kondo.bb
+# clj-kondo-bb
 
 Invoke [clj-kondo](https://github.com/clj-kondo/clj-kondo) from babashka scripts!
 
@@ -7,13 +7,13 @@ Invoke [clj-kondo](https://github.com/clj-kondo/clj-kondo) from babashka scripts
 Add this dependency to `bb.edn` or `deps.edn` (for bb libraries):
 
 ``` clojure
-{:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "adfc7df"}}}
+{:deps {io.github.clj-kondo/clj-kondo-bb {:git/tag "v2023.01.20" :git/sha "adfc7df"}}}
 ```
 
 You can invoke clj-kondo as a babashka one-liner like this:
 
 ``` clojure
-bb -Sdeps '{:deps {io.github.clj-kondo/clj-kondo.bb ...}}' -x clj-kondo.core/exec --lint src
+bb -Sdeps '{:deps {io.github.clj-kondo/clj-kondo-bb ...}}' -x clj-kondo.core/exec --lint src
 ```
 
 You can add this library along with JVM clj-kondo without causing conflicts.
