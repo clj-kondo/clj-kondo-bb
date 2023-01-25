@@ -10,6 +10,12 @@ Add this dependency to `bb.edn` or `deps.edn`:
 {:deps {io.github.clj-kondo/clj-kondo.bb {:git/tag "v2023.01.20" :git/sha "bf0d878"}
 ```
 
+You can invoke clj-kondo as a babashka one-liner like this:
+
+``` clojure
+bb -Sdeps '{:deps {io.github.clj-kondo/clj-kondo.bb ...}}' -x clj-kondo.core/exec --lint src
+```
+
 You can add this library along with JVM clj-kondo without causing conflicts.
 
 ## Usage
