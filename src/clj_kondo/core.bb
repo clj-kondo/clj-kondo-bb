@@ -2,7 +2,7 @@
   (:refer-clojure :exclude [run!])
   (:require [babashka.pods :as pods]))
 
-(pods/load-pod 'clj-kondo/clj-kondo "2026.08.03")
+(pods/load-pod 'clj-kondo/clj-kondo "2026.08.04")
 
 (require '[pod.borkdude.clj-kondo :as clj-kondo])
 
